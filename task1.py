@@ -14,6 +14,7 @@ def range_sum_no_cache(array, L, R):
 # Функція для оновлення значення елемента масиву за індексом без кешу
 def update_no_cache(array, index, value):
     array[index] = value
+ 
 
 # LRU-кеш розміром 1000 для функції range_sum_with_cache
 @lru_cache(maxsize=1000)
