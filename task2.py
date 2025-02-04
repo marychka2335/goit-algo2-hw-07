@@ -42,7 +42,7 @@ if __name__ == "__main__":
     ns = list(range(0, 951, 50))
     lru_times = []
     splay_times = []
-
+ 
     for n in ns:
         lru_time = measure_time_lru(n)
         lru_times.append(lru_time)
